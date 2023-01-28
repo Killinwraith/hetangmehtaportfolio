@@ -1,0 +1,231 @@
+body{
+	background-color: black;
+  display: block;
+  color:white;
+  font-family: "Roboto Mono",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.main_container{
+  display: block;
+}
+
+.block{
+  display: flex;
+  padding: 10vh;
+  align-items: flex-start;
+  height: auto;
+  overflow: hidden;
+  background-color: #000;
+  border-bottom: 1px solid #000;
+
+}
+
+.landing_block{
+  display: flex;
+  align-items: flex-start;
+  min-height: 80vh;
+  max-height: 100vh;
+  overflow: hidden;
+  padding: 10vh;
+}
+
+.landing_text{
+  margin-bottom: 0;
+  max-height: 100vh;
+  width: 80vw;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.landing_header{
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom:0;
+  font-size:60px ;
+}
+
+.landing_sub_1{
+  color: white;
+  margin:0;
+}
+.landing_sub_2{
+  color: white;
+  font-size: 2.4vh;
+}
+
+.res{
+  color: white;
+  font-size: 2.4vh;
+}
+
+.res:hover{
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.block_header{
+  color: white;
+
+  margin-top: 0;
+  text-align: center;
+}
+
+.block_container{
+  display: block;
+  width:100%;
+}
+
+.project_grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-auto-rows: auto;
+  column-gap: 3vw;
+  grid-row-gap: 3vh;
+  row-gap: 3vh;
+}
+
+.project_entry{
+  padding: 0;
+  height: auto;
+  display: flex;
+  width:100%
+}
+
+.project_entry_display{
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  width:100%;
+}
+
+.project_entry_display_container{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.grdnt-brdr{
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  background-origin: border-box;
+  border: 8px solid transparent;
+  box-shadow: inset 1000vw 0 0 #000;
+  border-radius: 35px;
+  padding: 2rem;
+
+}
+
+.img_container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 35vh;
+  padding: 10%;
+
+}
+
+.prj-img{
+  height: 20vw;
+  width: 100%;
+  object-fit: contain;
+}
+
+.project_text{
+  text-align: center;
+  margin-top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prj_title{
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prj_btn{
+  margin-top: auto;
+  text-align: center;
+}
+
+.btn{
+  font-weight: inherit;
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  background-origin: border-box;
+  border: 8px solid transparent;
+  box-shadow: inset 1000vw 0 0 #000;
+  border-radius: 40px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 20px 48px;
+}
+.btn:hover{
+  background: white;
+}
+.btn_text{
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.ftr_block{
+  background-color: #000;
+  display: flex;
+  padding: 7vh;
+  align-items: flex-start;
+  height: auto;
+  border-top: 2px solid #fff;
+}
+
+.ftr{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.contact_me{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}
+
+.icons{
+  background: linear-gradient(to right,#2fa1c4,#89f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.icons:hover{
+  background: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+.grp_cont{
+  text-decoration: none;
+}
