@@ -168,6 +168,17 @@ body{
   height: 100%;
   display: flex;
   flex-direction: column;
+  font-size: x-large;
+}
+
+.prj_title_sub{
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+
 }
 
 .prj_btn{
@@ -214,6 +225,22 @@ body{
   display: flex;
   flex-direction: row;
   margin: auto;
+}
+
+.hdr_block{
+  background-color: #000;
+  display: flex;
+  position: static;
+  padding-top: 7vh;
+  align-items: flex-start;
+  height: auto;
+}
+
+.hdr{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right:3vh;
 }
 
 .contact_me{
