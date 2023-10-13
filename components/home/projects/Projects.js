@@ -17,37 +17,7 @@ export const Projects = () => {
 };
 
 const projects = [
-  {
-    title: "Locked-IN.app",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://github.com/Killinwraith/Locked-In",
-    projectLink: "",
-    tech: ["Python", "Tkinter"],
-    description:
-      (
-      <>
-        <p>
-        Created studying aid in Python that closes programs detrimental to studying.
-        </p>
-        <p>
-        Program closes programs for study period (user-entered) and allows them to run for break period (user-entered).
-        </p>
-      </>
-      ),
-    modalContent: (
-      <>
-        <p>
-        Created studying aid in Python that closes programs detrimental to studying.
-        </p>
-        <p>
-        Program closes programs for study period (user-entered) and allows them to run for break period (user-entered).
-        </p>
-        <p>
-        Integrates interactive GUI created through Python Library &apos;Tkinter&apos;.
-        </p>
-      </>
-    ),
-  },
+  
 
   {
     title: "Locked-In",
