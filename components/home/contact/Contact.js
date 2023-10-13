@@ -39,6 +39,9 @@ export const Contact = () => {
               <span>hetangmehta03@gmail.com</span>
             </div>
           </Link>
+          <p className={styles.contactCopy}>
+          +1 (587) 438-8399
+          </p>
         </Reveal>
       </div>
     </section>
