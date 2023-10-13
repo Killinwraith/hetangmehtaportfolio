@@ -14,12 +14,12 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Front End Developer</span>
+            I&apos;m a <span>Full Stack web Developer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;am a 2nd Year Computer Engineering Student at UofA. 
+            I&apos;am a 3rd Year Computer Engineering Student at UofA. 
           </p>
         </Reveal>
         <Reveal>
