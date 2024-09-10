@@ -14,16 +14,15 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hey! I&apos;m Hetang, if you haven&apos;t already gathered that by
-              now. I&apos;m a third year Computer Engineering Student at the 
+              now. I&apos;m a fourth year Computer Engineering Student at the 
               University of Alberta. I specialize in Full Stack web Developement.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work as a Data Analyst Intern at Suncor in Fort McMurray, 
-              in the Maintenance Planning and Scheduling Department. I not only 
-              clean and process large datasets and perform analytical data analysis but
-              I also create automation tools that assist Planners & Schedulers.  
+              I have accumalted an immense amount of experience during my internships at 
+              Canadian Natural Resouces Limited as a Systems Developer, and also
+              at Suncor as an Engineering Student.
             </p>
           </Reveal>
           <Reveal>
@@ -34,7 +33,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m passively looking for new positions where I can merge my
+              I&apos;m looking for new opportunities where I can merge my
               love for code with my creativity. If you think
               you&apos;ve got an opening that I might like, let&apos;s connect
               🔗
