@@ -14,6 +14,38 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Canadian Natural Resources Limited, CNRL",
+    position: "Systems Developer Student",
+    time: "JAN 2024 - AUG 2024",
+    location: "Calgary",
+    description:(
+      <>
+      
+        <p>
+        Implemented and updated a budgeting procedure from the ground up, in VB.NET and Oracle PL/SQL to help aid business decisions made by senior management; Whilst also updating the UI to simplifying the user experience. Resulting in more accurate profit estimations for the company.
+        </p>
+        <p>
+        Reworked the Oracle PL/SQL architecture to accommodate several new additional features allowing administrators to track the individuals responsible for any given site.
+        </p>
+        <p>
+        Debugged, validated, tested, and developed fixes to resolve crucial production errors such as key budgeting calculations and UI failures within the Budget application, and scheduled oracle jobs failing.
+        </p>
+        <p>
+        Utilized Agile methodology and Azure for successful deployments of full stack improvements to current applications which resulted in improved workflow and productivity of the users.
+        </p>
+
+      </>
+    ),
+    tech: [
+      "VB.NET",
+      "Oracle PL/SQL",
+      "DevOps",
+      "Microsoft Excel",
+      "Blazor",
+      "Azure"
+    ],
+  },
+  {
     title: "Suncor",
     position: "Data Analyst Intern",
     time: "SEP 2023 - Present",
