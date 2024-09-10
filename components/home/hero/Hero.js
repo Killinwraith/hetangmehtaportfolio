@@ -19,7 +19,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;am a 3rd Year Computer Engineering Student at UofA. 
+            I&apos;am a 4th Year Computer Engineering Student at UofA. 
           </p>
         </Reveal>
         <Reveal>
