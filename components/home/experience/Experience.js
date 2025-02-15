@@ -16,11 +16,20 @@ const experience = [
   {
     title: "Canadian Natural Resources Limited, CNRL",
     position: "Systems Developer Student",
-    time: "JAN 2024 - AUG 2024",
+    time: "JAN 2024 - AUG 2025",
     location: "Calgary",
     description:(
       <>
-      
+        <p>
+        Developed a PWA, enabling over 500 engineers to manage Wells and access Golden Well Production Data through interactive tables, charts, and more. Designed and implemented the app using .NET, Blazor, C#, PL/SQL, Microsoft Authentication API, and Whitson API, resulting in improved data accessibility and operational efficiency across the exploitation engineering team. 
+        </p>
+        <p>
+        Refactored the Economic Indicator calculation procedures within the Budget Application to remove technical debt of 4 years. This resulted in cost savings of approx. 3x (Number of bugs that emerged in a quarter dropped by 1/3). 
+        </p>
+        <p>
+        Developed unit tests for key calculations of the Budget Application, such as the ‘Production and Sales’ and ‘Economic Indicators’. The implementation of unit tests for over 300 calculation procedures resulted in saving the testers and developers around 4 days of manual testing time for every change/upgrade/bug fix, improving efficiency and reliability.
+        </p>
+
         <p>
         Implemented and updated a budgeting procedure from the ground up, in VB.NET and Oracle PL/SQL to help aid business decisions made by senior management; Whilst also updating the UI to simplifying the user experience. Resulting in more accurate profit estimations for the company.
         </p>
