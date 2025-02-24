@@ -52,7 +52,7 @@ const experience = [
   {
     title: "Suncor",
     position: "Data Analyst Intern",
-    time: "SEP 2023 - Present",
+    time: "SEP 2023 - DEC 2023",
     location: "Fort McMurray",
     description:(
       <>
