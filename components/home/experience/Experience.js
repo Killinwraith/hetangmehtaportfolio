@@ -20,29 +20,24 @@ const experience = [
     location: "Calgary",
     description:(
       <>
-        <p>
-        Developed a PWA, enabling over 500 engineers to manage Wells and access Golden Well Production Data through interactive tables, charts, and more. Designed and implemented the app using .NET, Blazor, C#, PL/SQL, Microsoft Authentication API, and Whitson API, resulting in improved data accessibility and operational efficiency across the exploitation engineering team. 
-        </p>
-        <p>
-        Refactored the Economic Indicator calculation procedures within the Budget Application to remove technical debt of 4 years. This resulted in cost savings of approx. 3x (Number of bugs that emerged in a quarter dropped by 1/3). 
-        </p>
-        <p>
-        Developed unit tests for key calculations of the Budget Application, such as the ‘Production and Sales’ and ‘Economic Indicators’. The implementation of unit tests for over 300 calculation procedures resulted in saving the testers and developers around 4 days of manual testing time for every change/upgrade/bug fix, improving efficiency and reliability.
-        </p>
-
-        <p>
-        Implemented and updated a budgeting procedure from the ground up, in VB.NET and Oracle PL/SQL to help aid business decisions made by senior management; Whilst also updating the UI to simplifying the user experience. Resulting in more accurate profit estimations for the company.
-        </p>
-        <p>
-        Reworked the Oracle PL/SQL architecture to accommodate several new additional features allowing administrators to track the individuals responsible for any given site.
-        </p>
-        <p>
-        Debugged, validated, tested, and developed fixes to resolve crucial production errors such as key budgeting calculations and UI failures within the Budget application, and scheduled oracle jobs failing.
-        </p>
-        <p>
-        Utilized Agile methodology and Azure for successful deployments of full stack improvements to current applications which resulted in improved workflow and productivity of the users.
-        </p>
-
+      <p>
+      Developed a visual analytics PWA from scratch, using .NET, Blazor, C#, PL/SQL, and APIs, and deployed it via CI/CD Azure pipelines. The app enabled 500+ engineers in access/manage well production data, boosting operational efficiency by 30%.
+      </p>
+      <p>
+      Refactored a 5+ year-old Oracle PL/SQL architecture to eliminate technical debt and support new features, reducing quarterly bug occurrences by 33%, saving 3x the app maintenance/support cost.
+      </p>
+      <p>
+      Implemented 300+ unit tests using VB.Net Testing suite for 20 critical Budget calculations, reducing testing time from 10 days to 4 minutes, significantly improving efficiency and reliability.
+      </p>
+      <p>
+      Converted a legacy VB.NET application (MAWL) into a PWA using Blazor, streamlining the management of well details (name, location, responsibilities, hierarchy) for CNRL engineers, improving data accessibility and operational efficiency while eliminating the need for a virtual Windows 10 PC/XenApp. 
+      </p>
+      <p>
+      Developed budgeting procedures and UI enhancements from scratch in VB.NET and Oracle PL/SQL, enabling senior management to make informed business decisions and improving profit estimation accuracy while enhancing user experience.
+      </p>
+      <p>
+      Debugged and developed fixes using a CI/CD pipeline to resolve critical production issues, which improved overall application stability and reduced downtime.
+      </p>
       </>
     ),
     tech: [

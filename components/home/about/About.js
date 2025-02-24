@@ -15,7 +15,7 @@ export const About = () => {
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hey! I&apos;m Hetang, if you haven&apos;t already gathered that by
               now. I&apos;m a fourth year Computer Engineering Student at the 
-              University of Alberta. I specialize in Full Stack web Developement.
+              University of Alberta. I specialize in Full Stack Application Developement.
             </p>
           </Reveal>
           <Reveal>
