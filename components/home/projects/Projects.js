@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./Projects";
+import { Project } from "./Project";
 import styles from "./projects.module.scss";
 
 export const Projects = () => {
