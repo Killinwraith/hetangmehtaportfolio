@@ -1,11 +1,22 @@
+import "@/styles/tokens.css";
 import "@/styles/globals.css";
-import { Poppins } from "next/font/google";
+import { Inter_Tight, JetBrains_Mono } from "next/font/google";
 
-const poppins = Poppins({ weight: ["100", "200", "400", "700", "900"] });
+const sans = Inter_Tight({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
+});
 
 export default function App({ Component, pageProps }) {
   return (
-    <div id="root" className={poppins.className}>
+    <div id="root" className={`${sans.variable} ${mono.variable}`}>
       <Component {...pageProps} />
     </div>
   );
