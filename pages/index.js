@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { Home } from "@/components/home/Home";
+import { ProjectHero } from "@/components/hero/ProjectHero";
+import { Layout } from "@/components/layout/Layout";
+import {
+  About,
+  Contact,
+  Experience,
+  Projects,
+} from "@/components/sections/Sections";
+import { projects } from "@/content/projects";
 
 export default function home() {
   return (
@@ -36,7 +44,13 @@ export default function home() {
           content="Computer Engineering student at the University of Alberta. Full-stack, ML, and cloud infrastructure."
         />
       </Head>
-      <Home />
+      <Layout>
+        <ProjectHero projects={projects} />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+      </Layout>
     </>
   );
 }
