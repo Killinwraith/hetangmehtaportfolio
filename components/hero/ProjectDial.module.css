@@ -1,0 +1,137 @@
+.dial {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.plinthShadow {
+  filter: drop-shadow(-22px 30px 42px var(--shadow-object));
+}
+
+.discShadow {
+  filter: drop-shadow(-8px 14px 18px rgba(0, 0, 0, 0.42));
+}
+
+.armShadow {
+  filter: drop-shadow(-5px 10px 7px rgba(0, 0, 0, 0.32));
+}
+
+.turning {
+  transition: transform var(--turn) var(--ease);
+}
+
+.swing {
+  transition: transform var(--turn) var(--ease);
+}
+
+.idle {
+  animation: sway 6s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-0.25deg);
+  }
+  50% {
+    transform: rotate(0.25deg);
+  }
+}
+
+.groove {
+  fill: none;
+  stroke: #fff;
+  stroke-opacity: 0.09;
+}
+
+.segment,
+.segmentActive {
+  transition: fill var(--quick) linear;
+}
+
+.segment {
+  fill: var(--segment);
+}
+
+.segmentActive {
+  fill: var(--accent-strong);
+}
+
+.selectable {
+  cursor: pointer;
+}
+
+.selectable:hover .segment {
+  fill: #3b3b3b;
+}
+
+.label,
+.labelActive {
+  font-family: var(--font-mono), monospace;
+  font-size: 15px;
+  font-weight: 500;
+  dominant-baseline: central;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.label {
+  fill: var(--segment-ink);
+}
+
+.labelActive {
+  fill: var(--on-accent);
+}
+
+.hubNumber,
+.hubTotal {
+  fill: var(--on-accent);
+  font-family: var(--font-mono), monospace;
+  text-anchor: middle;
+}
+
+.hubNumber {
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.hubTotal {
+  font-size: 13px;
+}
+
+.screw circle {
+  fill: var(--plinth);
+  stroke: var(--ink-soft);
+}
+
+.screw path {
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+}
+
+.tick {
+  stroke: var(--plinth-edge);
+  stroke-width: 2;
+}
+
+.readout rect {
+  fill: var(--device);
+}
+
+.readout text {
+  fill: var(--device-ink);
+  font-family: var(--font-mono), monospace;
+  font-size: 16px;
+}
+
+.led {
+  fill: var(--accent-strong);
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  50% {
+    opacity: 0.45;
+  }
+}

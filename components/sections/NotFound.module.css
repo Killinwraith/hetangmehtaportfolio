@@ -1,0 +1,32 @@
+.page {
+  display: grid;
+  place-items: center;
+  min-height: calc(100vh - 72px);
+  padding: 88px var(--gutter) var(--space-5);
+}
+
+.circle {
+  display: grid;
+  place-content: center;
+  width: min(100%, 70vh);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  text-align: center;
+}
+
+.circle h1 {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.circle a {
+  text-underline-offset: 3px;
+}
+
+.circle :focus-visible {
+  outline-color: var(--on-accent);
+}

@@ -1,0 +1,4 @@
+.footer {
+  padding: var(--space-5) var(--gutter);
+  font-size: var(--text-sm);
+}

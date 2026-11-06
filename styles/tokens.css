@@ -1,0 +1,88 @@
+/*
+  Design tokens. Every colour, shadow, radius and spacing value lives here.
+  To switch theme, change `theme` in content/site.js ("orange" or "pastel").
+*/
+:root,
+[data-theme="orange"] {
+  --accent: #e8692f;
+  --accent-strong: #e8692f;
+  --on-accent: #111111;
+
+  --bg: #ebebeb;
+  --surface: #f6f6f6;
+  --ink: #111111;
+  --ink-soft: #565656;
+  --line: #cfcfcf;
+
+  --plinth: #d4d4d4;
+  --plinth-light: #e4e4e4;
+  --plinth-edge: #111111;
+  --disc: #111111;
+  --segment: #262626;
+  --segment-ink: #bdbdbd;
+  --arm: #fbfbfb;
+  --arm-shade: #d2d2d2;
+
+  --device: #171717;
+  --device-screen: #262626;
+  --device-ink: #f2f2f2;
+  --device-ink-soft: #ababab;
+}
+
+[data-theme="pastel"] {
+  --accent: #a9c9f2;
+  --accent-strong: #f8e58c;
+  --on-accent: #14213a;
+
+  --bg: #ffffff;
+  --surface: #f4f7fc;
+  --ink: #14213a;
+  --ink-soft: #4d5a73;
+  --line: #d8e0ec;
+
+  --plinth: #f3f5f9;
+  --plinth-light: #ffffff;
+  --plinth-edge: #14213a;
+  --disc: #14213a;
+  --segment: #25365a;
+  --segment-ink: #c7d3e8;
+  --arm: #fffdf2;
+  --arm-shade: #efe6ba;
+
+  --device: #14213a;
+  --device-screen: #25365a;
+  --device-ink: #f4f7fc;
+  --device-ink-soft: #b7c4dc;
+}
+
+:root {
+  --shadow-object: rgba(0, 0, 0, 0.36);
+  --shadow-soft: 0 18px 44px rgba(0, 0, 0, 0.32);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 22px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 40px;
+  --space-7: 64px;
+  --space-8: 112px;
+
+  --gutter: clamp(16px, 3vw, 24px);
+  --content: 1120px;
+  --reading: 64ch;
+
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --turn: 800ms;
+  --quick: 200ms;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1.0625rem;
+  --text-lg: clamp(1.375rem, 2.4vw, 1.875rem);
+  --text-xl: clamp(2.75rem, 8vw, 6rem);
+}

@@ -1,0 +1,263 @@
+.section {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: var(--space-8) var(--gutter) var(--space-7);
+}
+
+.title {
+  margin-bottom: var(--space-6);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.title span {
+  color: var(--accent);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: var(--space-7);
+}
+
+.prose {
+  max-width: var(--reading);
+}
+
+.prose p {
+  margin-bottom: 1.1em;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+.links a,
+.bullets a {
+  text-underline-offset: 3px;
+}
+
+.skills > div {
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--line);
+}
+
+.skills dt {
+  margin-bottom: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px var(--space-3);
+  color: var(--ink-soft);
+  font-family: var(--font-mono), monospace;
+  font-size: var(--text-xs);
+}
+
+.projects > li {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) minmax(0, 260px);
+  gap: var(--space-5);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--line);
+}
+
+.number,
+.mono {
+  font-family: var(--font-mono), monospace;
+  font-size: var(--text-xs);
+  line-height: 1.7;
+}
+
+.mono {
+  color: var(--ink-soft);
+}
+
+.projects h3,
+.experience h3 {
+  font-size: var(--text-lg);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.projects h3 {
+  margin-bottom: var(--space-2);
+}
+
+.projects h3 a {
+  text-decoration: none;
+}
+
+.projects h3 a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.projects > li p {
+  max-width: var(--reading);
+}
+
+.projectLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.projectLinks a {
+  display: inline-block;
+  padding: var(--space-1) 0;
+  text-underline-offset: 3px;
+}
+
+.experience > li {
+  display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  gap: var(--space-5);
+  padding: var(--space-5) 0 var(--space-6);
+  border-top: 1px solid var(--line);
+}
+
+.meta {
+  color: var(--ink-soft);
+  font-family: var(--font-mono), monospace;
+  font-size: var(--text-xs);
+  line-height: 1.7;
+}
+
+.position {
+  margin-bottom: var(--space-3);
+  font-weight: 500;
+}
+
+.bullets {
+  max-width: var(--reading);
+  margin-bottom: var(--space-4);
+}
+
+.bullets li {
+  position: relative;
+  margin-bottom: var(--space-2);
+  padding-left: var(--space-4);
+}
+
+.bullets li::before {
+  content: "";
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.contact {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 860px;
+  padding: var(--space-7) var(--gutter);
+  overflow: hidden;
+  color: var(--on-accent);
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(760px, 62vw);
+  max-width: 820px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translate(-50%, -50%);
+}
+
+.contactBody {
+  position: relative;
+  max-width: 480px;
+  text-align: center;
+}
+
+.contactBody .title {
+  margin-bottom: var(--space-5);
+}
+
+.contactBody .title span {
+  color: inherit;
+}
+
+.contactBody p {
+  margin-bottom: var(--space-4);
+}
+
+.contactBody a {
+  text-underline-offset: 3px;
+}
+
+.contactBody :focus-visible {
+  outline-color: var(--on-accent);
+}
+
+.email {
+  display: inline-block;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .section {
+    padding-top: var(--space-7);
+  }
+
+  .columns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-6);
+  }
+
+  .projects > li {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: var(--space-2) var(--space-3);
+  }
+
+  .projects > li > .mono {
+    grid-column: 2;
+  }
+
+  .experience > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-3);
+  }
+
+  .contact {
+    min-height: 660px;
+  }
+
+  .contact::before {
+    width: 720px;
+  }
+}
