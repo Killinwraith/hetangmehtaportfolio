@@ -6,6 +6,16 @@ Audited 2026-11-06 for the `redesign` branch. This is the source of truth for th
 
 **Out of scope:** `Projects/PersonalPortfolio_New` (Astro, not the live site). Its articles, stickers, about page and `hello@hetangmehta.ca` address are not part of this inventory.
 
+## After the redesign
+
+Everything below was carried over, apart from these deliberate changes:
+
+- **Changed label:** the navigation label "Exp." is now "Experience".
+- **Not displayed:** `public/project-imgs/example-project.jpg`. The file is kept, and the project dial replaces it.
+- **Deleted, as approved:** `public/fake_resume.pdf`, `public/bob-ross.png`, `public/next.svg`, `public/thirteen.svg` and `public/vercel.svg`.
+- **Added:** `public/og-image.png`, eight `/projects/[slug]` pages and a styled 404 page.
+- **Content now lives in:** `content/site.js`, `content/projects.js` and `content/experience.js`. The repo locations in the tables below describe the site before the redesign.
+
 ## Pages and URLs
 
 | URL | What it is | Status |
