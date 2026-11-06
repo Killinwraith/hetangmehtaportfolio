@@ -18,6 +18,10 @@
   @media (max-width: 768px) {
     font-size: var(--text-xl);
   }
+
+  @media (max-width: 480px) {
+    font-size: 4.4rem;
+  }
 }
 
 .contactCopy {
@@ -41,12 +45,26 @@
   gap: 0.8rem;
 
   width: fit-content;
+  max-width: 100%;
 
   font-size: var(--text-md);
 
   margin: auto;
 
   transition: 0.25s color;
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 480px) {
+    font-size: var(--text-xs);
+  }
 }
 
 .contactEmail:hover {

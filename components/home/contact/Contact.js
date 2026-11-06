@@ -36,7 +36,11 @@ export const Contact = () => {
           <Link href="mailto:hetangmehta03@gmail.com">
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
-              <span>hetangmehta03@gmail.com</span>
+              <span>
+                hetangmehta03@
+                <wbr />
+                gmail.com
+              </span>
             </div>
           </Link>
           <p className={styles.contactCopy}>

@@ -18,6 +18,42 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Energy Copilot",
+    imgSrc: "project-imgs/example-project.jpg",
+    code: "https://github.com/Killinwraith/EnergyCopilot",
+    projectLink: "",
+    tech: ["Python", "FastAPI", "PostgreSQL", "pgvector", "Next.js"],
+    description:
+      "In progress: an AI copilot that answers plain-English questions over public Alberta well production data.",
+    modalContent: (
+      <>
+        <p>
+          Building an AI copilot that answers plain-English questions over public
+          Alberta well production data (Petrinex, AER). This project is in
+          progress.
+        </p>
+        <p>
+          Wrote the product spec: target users, priority use cases, success
+          metrics and a phased roadmap.
+        </p>
+        <p>
+          Using a tool-calling agent that writes guarded read-only SQL, forecasts
+          decline curves, and cites AER directives, with pgvector retrieval for
+          RAG.
+        </p>
+        <p>
+          Designed responsible-AI guardrails: answers grounded in query results,
+          cited regulations, and refusals on confidential data.
+        </p>
+        <p>
+          Developing eval-first: versioned test sets for SQL accuracy, retrieval
+          and extraction, used to compare RAG chunking and hybrid retrieval
+          strategies, with CI blocking regressions.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "EMG Viability Classifier",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://github.com/albertabionix/EMG_Viability_ML_Algorithm",
@@ -117,13 +153,14 @@ const projects = [
     projectLink: "",
     tech: ["C", "POSIX Threads", "Sockets", "Concurrency"],
     description:
-      "A multithreaded TCP server in C handling concurrent read/write requests with data consistency guarantees.",
+      "A thread-pool TCP server in C handling concurrent read/write requests with data consistency guarantees.",
     modalContent: (
       <>
         <p>
-          Built a multithreaded TCP server in C from scratch, supporting
-          concurrent client connections with reader/writer synchronization for
-          safe shared-state access.
+          Built a multithreaded TCP server in C from scratch, using a thread-pool
+          architecture to manage connection load and supporting concurrent client
+          connections, with mutexes and reader-writer locks for safe shared-state
+          access and to prevent race conditions.
         </p>
         <p>
           Implemented the client-server message protocol over POSIX sockets with
@@ -142,7 +179,7 @@ const projects = [
     title: "ATS Resume Analyzer",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://github.com/Killinwraith/ATS_Resume_Analyzer",
-    projectLink: "",
+    projectLink: "https://atsresume-ai.vercel.app/dashboard",
     tech: ["Next.js", "TypeScript", "React", "Google Gemini AI"],
     description:
       "A GenAI-powered full-stack web application that evaluates resume compatibility with job descriptions.",
@@ -158,7 +195,8 @@ const projects = [
         </p>
         <p>
           Implemented prompt-based evaluation pipelines for keyword extraction
-          and resume optimization recommendations.
+          and resume optimization recommendations, including suggested rewrites,
+          and deployed the app to production on Vercel.
         </p>
       </>
     ),
@@ -168,7 +206,15 @@ const projects = [
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://github.com/Killinwraith/Boxed",
     projectLink: "",
-    tech: ["React", "Node.js", "Express", "Auth0", "Cloudflare R2", "Docker"],
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Auth0",
+      "Cloudflare R2",
+      "Docker",
+    ],
     description:
       "A cloud storage infrastructure enabling secure file uploads, retrieval, and access control.",
     modalContent: (

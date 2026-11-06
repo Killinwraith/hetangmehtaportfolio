@@ -14,25 +14,32 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hey! I&apos;m Hetang, if you haven&apos;t already gathered that by
-              now. I&apos;m a fourth year Computer Engineering student at the
-              University of Alberta, with experience spanning full-stack
-              development, machine learning, and cloud infrastructure.
+              now. I&apos;m a fourth year Computer Engineering (Co-op) student at
+              the University of Alberta, graduating in April 2027, with experience
+              spanning full-stack development, machine learning, and cloud
+              infrastructure. My coursework includes data structures and
+              algorithms, object-oriented software design, operating systems,
+              parallel and distributed programming, and databases.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               I&apos;ve accumulated a deep set of engineering experience through
-              my internships as a Software Engineer at Canadian Natural
-              Resources Limited and Suncor Energy, where I shipped production
-              systems used by hundreds of engineers and automated workflows
-              saving six figures annually.
+              my internships as a Systems Developer at Canadian Natural Resources
+              Limited and a Data Analyst at Suncor Energy, where I shipped
+              production systems used by 500+ engineers and automated workflows
+              saving 30+ hours a week. At Canadian Natural, I&apos;ve since
+              stepped up as lead developer of a core capital budgeting
+              application.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m currently a Machine Learning Engineer with Alberta
-              BIONIX, where I build models for real-time prosthetic knee control
-              from EMG sensor data.
+              I&apos;m currently a Machine Learning Engineer and team lead with
+              Alberta BIONIX, where I build models for real-time prosthetic knee
+              control from EMG sensor data and mentor 2 junior engineers. On the
+              side, I&apos;m building Energy Copilot, an AI agent that answers
+              plain-English questions over Alberta well production data.
             </p>
           </Reveal>
           <Reveal>

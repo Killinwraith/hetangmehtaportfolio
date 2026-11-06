@@ -13,7 +13,7 @@ export default function home() {
         <meta name="author" content="Hetang Mehta" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://hetangmehta.com" />
+        <link rel="canonical" href="https://www.hetangmehta.ca" />
 
         {/* Open Graph — link previews on LinkedIn, Slack, iMessage, etc. */}
         <meta property="og:type" content="website" />
@@ -22,10 +22,10 @@ export default function home() {
           property="og:description"
           content="Computer Engineering student at the University of Alberta. Full-stack, ML, and cloud infrastructure."
         />
-        <meta property="og:url" content="https://hetangmehta.com" />
+        <meta property="og:url" content="https://www.hetangmehta.ca" />
         <meta
           property="og:image"
-          content="https://hetangmehta.com/og-image.png"
+          content="https://www.hetangmehta.ca/og-image.png"
         />
 
         {/* Twitter card */}

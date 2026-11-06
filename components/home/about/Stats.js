@@ -40,6 +40,8 @@ export const Stats = () => {
             <span className="chip">Pandas</span>
             <span className="chip">NumPy</span>
             <span className="chip">Gemini API</span>
+            <span className="chip">Matplotlib</span>
+            <span className="chip">RAG</span>
           </div>
         </div>
       </Reveal>
@@ -62,6 +64,9 @@ export const Stats = () => {
             <span className="chip">JUnit</span>
             <span className="chip">Auth0</span>
             <span className="chip">Android Studio</span>
+            <span className="chip">ASP.NET</span>
+            <span className="chip">FastAPI</span>
+            <span className="chip">Power BI</span>
           </div>
         </div>
       </Reveal>
@@ -94,6 +99,53 @@ export const Stats = () => {
             <span className="chip">PostgreSQL</span>
             <span className="chip">MySQL</span>
             <span className="chip">MongoDB</span>
+            <span className="chip">pgvector</span>
+            <span className="chip">Query Optimization</span>
+            <span className="chip">Schema Design</span>
+          </div>
+        </div>
+      </Reveal>
+      <Reveal>
+        <div className={styles.statColumn}>
+          <h4>
+            <AiFillCode size="2.4rem" color="var(--brand)" />
+            <span>Engineering Practices</span>
+          </h4>
+          <div className={styles.statGrid}>
+            <span className="chip">Data Structures &amp; Algorithms</span>
+            <span className="chip">Object-Oriented Design</span>
+            <span className="chip">Concurrency</span>
+            <span className="chip">Unit Testing</span>
+            <span className="chip">Debugging</span>
+            <span className="chip">SDLC</span>
+            <span className="chip">Agile</span>
+          </div>
+        </div>
+      </Reveal>
+      <Reveal>
+        <div className={styles.statColumn}>
+          <h4>
+            <AiFillCode size="2.4rem" color="var(--brand)" />
+            <span>Product</span>
+          </h4>
+          <div className={styles.statGrid}>
+            <span className="chip">Stakeholder Management</span>
+            <span className="chip">Requirements &amp; Scoping</span>
+            <span className="chip">Release Ownership</span>
+            <span className="chip">UAT</span>
+          </div>
+        </div>
+      </Reveal>
+      <Reveal>
+        <div className={styles.statColumn}>
+          <h4>
+            <AiFillCode size="2.4rem" color="var(--brand)" />
+            <span>AI-Assisted Development</span>
+          </h4>
+          <div className={styles.statGrid}>
+            <span className="chip">Claude</span>
+            <span className="chip">Claude Code</span>
+            <span className="chip">GitHub Copilot</span>
           </div>
         </div>
       </Reveal>
